@@ -1,0 +1,373 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 5%;
+}
+
+
+.left {
+    flex: 1;
+    text-align: left;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.name {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+.role {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.email {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.email:hover {
+    color: #555;
+    border-bottom: 2px solid black;
+    letter-spacing: 1px;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.mockup {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+
+.bio-left {
+    flex: 1;
+}
+
+.bio-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.bio-right {
+    flex: 1;
+    text-align: left;
+}
+
+.bio-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.bio-heading {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.bio-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.experience-section {
+    display: flex;
+    gap: 2rem;
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.experience-left, .experience-right {
+    flex: 1;
+}
+
+.experience-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.experience-list {
+    list-style: none;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.experience-list li {
+    margin-bottom: 10px;
+}
+
+.work-section {
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.work-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.work-content {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.work-images {
+    display: flex;
+    gap: 10px;
+    flex: 2;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.work-image {
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.work-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.work-description {
+    flex: 1;
+    text-align: left;
+}
+
+.work-heading {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.work-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+.additional-image-subtitle{
+    font-size: 16px;
+    color: #181818;
+    line-height: 1.6;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.additional-image-section {
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.additional-image-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.additional-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.additional-image {
+    width: 250%; 
+    max-width: 400px; 
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.additional-image1 {
+    width: 200%; 
+    max-width: 600px; 
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.quote-section {
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.quote-text {
+    flex: 1;
+    font-size: 24px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+}
+
+.quote-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.quote-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section {
+    padding: 5% 10%;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-image-container {
+    flex: 1;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-info {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-info {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+.social-btn img {
+    width: 40px; 
+    height: auto;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.social-btn img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
